@@ -14,7 +14,7 @@ Business (contains the data parsed from the JSON)
 ViewModel:
 SearchViewModel
 
-The SearchViewModel model triggers a call to the get the new results for the API when the user starts typing a search term. When it gets the results back, it updates the observable which is used to bind to the tableView in SearchViewController. Used custom image caching mechanism for the images.
+The SearchViewModel which is created inside the SearchViewController triggers a call to the get the new results for the API when the user starts typing a search term. When it gets the results back, it updates the observable which is used to bind to the tableView in SearchViewController. Used custom image caching mechanism for the images.
 
 If I had more time:
 1. Would have cleaned up the search functionality and made it more efficient. There are some minor issues.
