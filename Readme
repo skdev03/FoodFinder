@@ -1,0 +1,18 @@
+
+I used MVVM with Coordinator and RxSwift. It's been a while I used RxSwift, so it took me a little longer than I expected to get the work done within 4 hours. As a result, I was not able to work on the Unit tests.
+
+I organized all the classes in their respective folders.
+
+Views:
+SearchViewController
+BusinessCell
+
+Model:
+Business (contains the data parsed from the JSON)
+
+ViewModel:
+SearchViewModel
+
+The SearchViewModel model triggers a call to the get the new results for the API when the user starts typing a search term. When it gets the results back, it updates the observable which is used to bind to the tableView in SearchViewController. Used custom image caching mechanism for the images.
+
+If I had more time, I would have liked to clean up the search functionality and made it more efficient. I would have also liked to implement a detail view when tapped on a result. I would also have worked on the unit tests. Currently the search are reverting back when we tap on the Cancel button on the search bar. I would have fixed it.
