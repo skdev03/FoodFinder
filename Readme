@@ -2,6 +2,7 @@
 I used MVVM with Coordinator and RxSwift. It's been a while I used RxSwift, so it took me a little longer than I expected to get the work done within 4 hours. As a result, I was not able to work on the Unit tests.
 
 I organized all the classes in their respective folders.
+Used protocols and dependency injection which would make the unit testing much more easier.
 
 Views:
 SearchViewController
