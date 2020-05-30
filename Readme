@@ -15,4 +15,11 @@ SearchViewModel
 
 The SearchViewModel model triggers a call to the get the new results for the API when the user starts typing a search term. When it gets the results back, it updates the observable which is used to bind to the tableView in SearchViewController. Used custom image caching mechanism for the images.
 
-If I had more time, I would have liked to clean up the search functionality and made it more efficient. I would have also liked to implement a detail view when tapped on a result. I would also have worked on the unit tests. Currently the search are reverting back when we tap on the Cancel button on the search bar. I would have fixed it.
+If I had more time:
+1. Would have cleaned up the search functionality and made it more efficient. There are some minor issues.
+2. Would have implemented a detail view when tapped on a result. 
+3. Would have worked on the unit tests. 
+4. Currently the search is reverting back when we tap on the Cancel button on the search bar. I would have fixed it.
+5. Would have refactored the RxSwift binding to make it a little more efficient.
+6. Would have created BusinessViewModel to pass in to the BusinessCell instead of passing the actual Business model.
+7. Would have used rx for locationManager to get the current location updates more efficiently.
