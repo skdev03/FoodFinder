@@ -23,3 +23,5 @@ If I had more time:
 4. Would have refactored the RxSwift binding to make it a little more efficient.
 5. Would have created BusinessViewModel to pass in to the BusinessCell instead of passing the actual Business model.
 6. Would have used rx for locationManager to get the current location updates more efficiently.
+
+Created a pull request with some more updates, as I did those changes later.
