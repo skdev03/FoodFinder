@@ -6,7 +6,9 @@ target 'FoodFinder' do
   use_frameworks!
   pod 'RxSwift', '~> 5'
   pod 'RxCocoa', '~> 5'
-
+  pod 'RxCoreLocation'
+  pod 'RxOptional'
+  
   target 'FoodFinderTests' do
     inherit! :search_paths
     # Pods for testing
