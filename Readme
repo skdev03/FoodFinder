@@ -20,8 +20,7 @@ If I had more time:
 1. Would have cleaned up the search functionality and made it more efficient. There are some minor issues.
 2. Would have implemented a detail view when tapped on a result. 
 3. Would have worked on the unit tests. 
-4. Currently the search is reverting back when we tap on the Cancel button on the search bar. I would have fixed it.
-5. Would have refactored the RxSwift binding to make it a little more efficient.
-6. Would have created BusinessViewModel to pass in to the BusinessCell instead of passing the actual Business model.
-7. Would have used rx for locationManager to get the current location updates more efficiently.
-8. Would also have liked to use Combine, if that was an option.
+4. Would have refactored the RxSwift binding to make it a little more efficient.
+5. Would have created BusinessViewModel to pass in to the BusinessCell instead of passing the actual Business model.
+6. Would have used rx for locationManager to get the current location updates more efficiently.
+7. Would also have liked to use Combine, if that was an option.
