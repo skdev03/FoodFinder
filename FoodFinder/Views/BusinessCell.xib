@@ -44,7 +44,7 @@
                     <constraint firstItem="uSf-Ng-AbX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="a8Q-pb-txC"/>
                     <constraint firstAttribute="bottom" secondItem="uSf-Ng-AbX" secondAttribute="bottom" constant="5" id="jRC-H7-A2H"/>
                     <constraint firstItem="iY5-Mi-n6g" firstAttribute="top" secondItem="vws-K6-6YU" secondAttribute="bottom" id="sa9-Aa-vmY"/>
-                    <constraint firstItem="uSf-Ng-AbX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="y9E-OL-RjL"/>
+                    <constraint firstItem="uSf-Ng-AbX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" priority="999" constant="5" id="y9E-OL-RjL"/>
                     <constraint firstItem="vws-K6-6YU" firstAttribute="leading" secondItem="uSf-Ng-AbX" secondAttribute="trailing" constant="16" id="yzw-cV-b6J"/>
                 </constraints>
             </tableViewCellContentView>

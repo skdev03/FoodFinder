@@ -9,13 +9,6 @@
 import Foundation
 import RxSwift
 import RxCocoa
-import CoreLocation
-
-class LocationManager {
-    static let shared = LocationManager()
-    
-    var locationCoordinate: CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: 0, longitude: 0)
-}
 
 class SearchViewModel {
     private let service: BusinessSearchable
@@ -23,17 +16,15 @@ class SearchViewModel {
     let businessesObservable: Observable<Event<[Business]>>
     let businesses: Observable<[Business]>
     let errors: Observable<FoodAPIError>
-    var locationCoordinate: CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: 0, longitude: 0)
     
     init(service: BusinessSearchable, searchBarObservable: Observable<String>) {
         self.service = service
         
-        businessesObservable = searchBarObservable.flatMap { (searchTerm) -> Observable<Event<[Business]>> in
+        businessesObservable = searchBarObservable.flatMapLatest { (searchTerm) -> Observable<Event<[Business]>> in
             return service.businesses(forLat: "\(LocationManager.shared.locationCoordinate.latitude)", lng: "\(LocationManager.shared.locationCoordinate.longitude)", searchTerm: searchTerm)
                 .observeOn(MainScheduler.instance)
                 .materialize()
-            
-        }.share()
+        }
         
         businesses = businessesObservable
             .map { $0.element }

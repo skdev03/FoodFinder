@@ -25,6 +25,7 @@
 		05A3A2C82481CC3D0060AC65 /* BusinessCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3A2C62481CC3D0060AC65 /* BusinessCell.swift */; };
 		05A3A2C92481CC3D0060AC65 /* BusinessCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05A3A2C72481CC3D0060AC65 /* BusinessCell.xib */; };
 		05A3A2CB2481D9140060AC65 /* Readme in Resources */ = {isa = PBXBuildFile; fileRef = 05A3A2CA2481D9140060AC65 /* Readme */; };
+		05A3A2EB2484E1790060AC65 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A3A2EA2484E1790060AC65 /* LocationManager.swift */; };
 		44B6D313520621E83A41E808 /* Pods_FoodFinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618585578C0F0C944E91BCCF /* Pods_FoodFinderTests.framework */; };
 		819836E3E9497CDBB0A72945 /* Pods_FoodFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A10F7B18ADC858E0D9243AD /* Pods_FoodFinder.framework */; };
 /* End PBXBuildFile section */
@@ -62,6 +63,7 @@
 		05A3A2C62481CC3D0060AC65 /* BusinessCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCell.swift; sourceTree = "<group>"; };
 		05A3A2C72481CC3D0060AC65 /* BusinessCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BusinessCell.xib; sourceTree = "<group>"; };
 		05A3A2CA2481D9140060AC65 /* Readme */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme; sourceTree = "<group>"; };
+		05A3A2EA2484E1790060AC65 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		0AAF0B0D643AEBF2918FBD47 /* Pods-FoodFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodFinder.release.xcconfig"; path = "Target Support Files/Pods-FoodFinder/Pods-FoodFinder.release.xcconfig"; sourceTree = "<group>"; };
 		18EC0235CDB85ADE88A282F6 /* Pods-FoodFinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodFinderTests.debug.xcconfig"; path = "Target Support Files/Pods-FoodFinderTests/Pods-FoodFinderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		20C9EADC1D5D28B56FCED124 /* Pods-FoodFinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodFinderTests.release.xcconfig"; path = "Target Support Files/Pods-FoodFinderTests/Pods-FoodFinderTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 			children = (
 				05A3A2B72481A7640060AC65 /* FoodAPIError.swift */,
 				05A3A2BC2481AAC20060AC65 /* Storyboarded.swift */,
+				05A3A2EA2484E1790060AC65 /* LocationManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -434,6 +437,7 @@
 				05A3A2B12481A5E80060AC65 /* MainCoordinator.swift in Sources */,
 				05A3A2872481A57D0060AC65 /* SceneDelegate.swift in Sources */,
 				05A3A2B82481A7640060AC65 /* FoodAPIError.swift in Sources */,
+				05A3A2EB2484E1790060AC65 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
